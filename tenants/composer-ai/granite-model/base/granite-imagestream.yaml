@@ -3,6 +3,7 @@ kind: ImageStream
 metadata:
   annotations:
   name: granite-3.0-8b-instruct
+  namespace: composer-ai-apps  
 spec:
   lookupPolicy:
     local: false
